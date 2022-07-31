@@ -1,0 +1,444 @@
+   @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playball&family=Poppins:wght@500;700&display=swap');
+
+   @keyframes sliding {
+       0% {
+           background-color: yellow;
+       }
+
+       50% {
+           background-color: #DD0000;
+       }
+
+       100% {
+           background-color: aqua;
+       }
+
+   }
+
+   body {
+       margin: 0;
+       margin-top: 10px;
+       font-family: 'Poppins', sans-serif;
+   }
+
+  
+
+   .container {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+
+   /* ------------------------
+        header section  
+     --------------------------*/
+   .web-bannar {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       width: 1320px;
+       max-width: 100%;
+       height: 645px;
+       border-radius: 30px;
+       /* margin-top: 15px;
+        margin-left: 70px; */
+       background-color: #161616;
+
+
+   }
+
+   .bannar-content {
+       /* width: 530px;
+        height: 425px; */
+       padding-left: 96px;
+       padding-top: 100px;
+       padding-bottom: 100px;
+   }
+
+   .bannar-content h1 {
+       font-size: 70px;
+       font-weight: 700;
+       color: #FFFFFF;
+       margin-bottom: 0px;
+       margin-top: 0px;
+   }
+
+   .bannar-content p {
+       font-size: 16px;
+       color: #FFFFFF;
+       padding-bottom: 20px;
+   }
+
+   .clickable-button {
+       width: 187px;
+       height: 56px;
+       border-radius: 5px;
+       background-color: #DD0000;
+       animation: sliding 3s linear 0.1s infinite alternate;
+       animation-play-state: running;
+   }
+
+   .clickable-button a {
+       font-size: 18px;
+       color: #FFFFFF;
+       text-decoration: none;
+       align-items: center;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       padding: 16px 25px;
+       gap: 10px;
+
+   }
+
+   .fa-angle-right {
+       margin-left: 10px;
+
+   }
+
+
+   .web-bannar img {
+       width: 580px;
+       margin-top: 34px;
+   }
+
+   /*----------------------
+               blogs
+    --------------------- */
+   .blogs {
+       display: flex;
+       margin-top: 130px;
+
+   }
+
+   .blogs-index {
+       width: 312px;
+       height: 312px;
+       border-radius: 10px;
+       background-color: #161616;
+   }
+
+   .index {
+       padding: 30px;
+   }
+
+   .box {
+       display: flex;
+       flex-direction: column;
+       width: 252px;
+       height: 64px;
+       border-radius: 10px;
+       background-color: #FFFFFF;
+   }
+
+
+
+   .blog:visited,
+   .blog:hover {
+       background-color: #DD0000;
+   }
+
+   .box a {
+       text-decoration: none;
+       color: #161616;
+       padding: 17px 39px;
+       text-align: center;
+   }
+
+   .upcoming-match,
+   .all-group {
+       margin-bottom: 30px;
+   }
+
+   .blogs-artical {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap: 24px;
+       margin-left: 24px;
+
+   }
+
+   .artical {
+       width: 312px;
+       height: 362px;
+       border: 1px solid #E8E8E8;
+       border-radius: 10px;
+
+   }
+
+   .info {
+       padding: 0px 20px;
+   }
+
+   .info h3 {
+       font-size: 18px;
+       font-weight: 600;
+   }
+
+   .info span {
+       padding-right: 30px;
+   }
+
+   .transfer {
+       width: 100px;
+       height: 32px;
+       text-align: center;
+       border: 1px solid #161616;
+       border-radius: 5px;
+   }
+
+   /*--------------------------------
+                footer 
+    -----------------------------*/
+
+   footer {
+       /* width: 1525px; */
+       height: 444px;
+       background-color: #161616;
+       margin-top: 130px;
+   }
+
+   footer h2 {
+       color: #FFFFFF;
+       text-align: center;
+       padding-top: 130px;
+       margin-bottom: 30px;
+   }
+
+   hr {
+       width: 1320px;
+       border: 1px solid rgba(255, 255, 255, 0.1);
+       margin-bottom: 50px;
+   }
+
+   footer span {
+       padding-right: 30px;
+   }
+
+   .terms {
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+       color: #B9B9B9;
+       font-size: 16px;
+
+   }
+
+   .social {
+       display: flex;
+       justify-content: center;
+       margin-top: 40px;
+   }
+
+   .social a {
+       color: blueviolet;
+       font-size: 25px;
+       padding: 20px;
+   }
+
+   /*-----------------------------------------
+             website-2,Match-Time 
+     ---------------------------------*/
+   .match-date {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       gap: 24px;
+       margin-left: 24px;
+   }
+
+   .team {
+       border: 1px solid #E8E8E8;
+       border-radius: 10px;
+
+       padding-left: 30px;
+       padding-right: 30px;
+       padding-top: 53px;
+
+       justify-content: center;
+   }
+
+   .team h5 {
+       margin-top: 20px;
+       margin-bottom: 0;
+
+   }
+
+   .team p {
+       margin-top: 10px;
+   }
+
+   .flag {
+       display: flex;
+       width: 252px;
+       height: 56.18px;
+   }
+
+   .flag h4 {
+       padding-left: 20px;
+       padding-right: 20px;
+   }
+
+   .upcoming-match:active,
+   .upcoming-match:hover {
+       background-color: #DD0000;
+   }
+
+   /*---------------------------------
+                 Responsive 
+    -----------------------------------------*/
+   @media only screen and (min-width:668px) and (max-width:992px) {
+       .container {
+           flex-direction: row;
+       }
+
+       .web-bannar {
+           flex-direction: row;
+           background-color: #161616;
+           max-width: 980px;
+           height: 400px;
+
+       }
+
+       .bannar-content {
+           padding-top: 25px;
+           padding-left: 25px;
+       }
+
+       .bannar-content h1 {
+           font-size: 39px;
+           margin-bottom: -8px;
+       }
+
+       .bannar-content p {
+           font-size: 16px;
+       }
+
+       .web-bannar img {
+           margin-top: 20px;
+           width: 94%;
+       }
+
+       .blogs {
+           flex-direction: column;
+       }
+
+       .blogs-index {
+           margin-bottom: 30px;
+           width: 100%;
+           height: 100%;
+           background-color: white;
+       }
+
+       .index {
+           display: flex;
+           flex-direction: row;
+           padding: 0;
+       }
+
+       .box {
+           border: 1px solid #E8E8E8;
+           margin: 10px;
+           padding: 10px;
+           width: 220px;
+           height: 64px;
+       }
+
+       .blogs-artical, .match-date {
+           display: grid;
+           grid-template-columns: repeat(2, 1fr);
+           gap: 24px;
+           margin-left: 24px;
+
+       }
+
+       footer {
+           width: 100%;
+           height: 444px;
+           background-color: #161616;
+           margin-top: 130px;
+       }
+
+   }
+   /*------------------------- mobile device------------------------ */
+   @media screen and (max-width:660px) {
+    .web-bannar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* grid-template-columns: repeat(1, 1fr); */
+        width: 100%; 
+        max-width: 100%;
+        /* height: 645px; */
+        border-radius: 30px;
+        /* margin-top: 15px;
+         margin-left: 70px; */
+        background-color: #161616;
+    }
+    .bannar-content {
+        width: 258px;
+        text-align: center;
+
+        /* width: 100%; */
+        padding-left: 60px;
+        padding-right: 38px;
+        padding-top: 28px;
+        padding-bottom: 10px;
+    }
+    .bannar-content h1 {
+        font-size: 22px;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .bannar-content p {
+        font-size: 14px;
+        color: #FFFFFF;
+        padding-bottom: 2px;
+    }
+    .clickable-button {
+       margin-left: 34px;
+    }
+    .web-bannar img {
+        width: 80%;
+        margin-top: 21px;
+        margin-left: 30px;
+        margin-bottom: -60px;
+    }
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 130px;
+ 
+    }
+    .blogs-artical {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        margin-left: 24px;
+ 
+    }
+    .match-date {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+        margin-left: 24px;
+    }
+    footer h2 {
+       
+        padding-top: 50px;
+       
+    }
+    .terms {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color: #B9B9B9;
+        font-size: 16px;
+ 
+    }
+    
+   }
